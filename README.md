@@ -7,11 +7,11 @@
 
 | Equipo | Información del Integrante |
 | :---: | :--- |
-| <img src="https://unsplash.com" width="100" height="100" style="border-radius:50%;" /> | **[Nombre Apellido 1]**<br>✉️ `correo1@universidad.edu`<br>*Rol: Diseñador de BD / Líder* |
-| <img src="https://unsplash.com" width="100" height="100" style="border-radius:50%;" /> | **[Nombre Apellido 2]**<br>✉️ `correo2@universidad.edu`<br>*Rol: Desarrollador ETL* |
-| <img src="https://unsplash.com" width="100" height="100" style="border-radius:50%;" /> | **[Nombre Apellido 3]**<br>✉️ `correo3@universidad.edu`<br>*Rol: Analista de Datos* |
-| <img src="https://unsplash.com" width="100" height="100" style="border-radius:50%;" /> | **[Nombre Apellido 4]**<br>✉️ `correo3@universidad.edu`<br>*Rol: Analista de Datos* |
-| <img src="https://unsplash.com" width="100" height="100" style="border-radius:50%;" /> | **[Nombre Apellido 5]**<br>✉️ `correo3@universidad.edu`<br>*Rol: Analista de Datos* |
+| <img src="https://unsplash.com" width="100" height="100" style="border-radius:50%;" /> | **HERRERA LEZCANO, NICOLAS VLADIMIR**<br>✉️ `correo1@universidad.edu`<br>*Rol: Diseñador de BD / Líder* |
+| <img src="https://unsplash.com" width="100" height="100" style="border-radius:50%;" /> | **CATACORA CARRILLO, MARÍA ALEJANDRA**<br>✉️ `correo2@universidad.edu`<br>*Rol: Desarrollador ETL* |
+| <img src="https://unsplash.com" width="100" height="100" style="border-radius:50%;" /> | **FERNANDEZ BERNAOLA, DAVIDT BRAYAMN**<br>✉️ `davidt.fernandez@upch.pe`<br>*Rol: Analista de Datos* |
+| <img src="https://unsplash.com" width="100" height="100" style="border-radius:50%;" /> | **RODRIGUEZ SOLANO, MILAGROS MARIAJOSE**<br>✉️ `correo3@universidad.edu`<br>*Rol: Analista de Datos* |
+| <img src="https://unsplash.com" width="100" height="100" style="border-radius:50%;" /> | **OLIVA GONZALES, HUDSON HUMBERTO**<br>✉️ `hudson.oliva.g@upch.pe`<br>*Rol: Analista de Datos* |
 
 ---
 
