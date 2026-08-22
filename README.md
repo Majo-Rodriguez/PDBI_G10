@@ -21,4 +21,8 @@
 
 ---
 
+## Problemática a resolver: 
+Carencia de dispositivos de tamizaje que muestren y señalen alteraciones en sonidos cardiopulmonares, lo que genera retardos y posibles errores en el diagnóstico de patologías
+
 ## Descripción del Proyecto
+Estetoscopio electrónico portátil orientado a contextos rurales, capaz de realizar localmente la adquisición, preprocesamiento y clasificación TinyML de sonidos cardiopulmonares, proporcionando retroalimentación visual y auditiva, sin requerir conectividad externa.
