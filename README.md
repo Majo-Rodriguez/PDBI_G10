@@ -5,13 +5,19 @@
 
 ## 👥 Equipo de Trabajo
 
-| Equipo | Información del Integrante |
-| :---: | :--- |
-| <img src="https://unsplash.com" width="100" height="100" style="border-radius:50%;" /> | **HERRERA LEZCANO, NICOLAS VLADIMIR**<br>✉️ `nicolas.herrera@upch.pe`<br>*Rol: Diseñador de BD / Líder* |
-| <img src="https://unsplash.com" width="100" height="100" style="border-radius:50%;" /> | **CATACORA CARRILLO, MARÍA ALEJANDRA**<br>✉️ ` maria.catacora.c@upch.pe`<br>*Rol: Desarrollador ETL* |
-| <img src="https://unsplash.com" width="100" height="100" style="border-radius:50%;" /> | **FERNANDEZ BERNAOLA, DAVIDT BRAYAMN**<br>✉️ `davidt.fernandez@upch.pe`<br>*Rol: Analista de Datos* |
-| <img src="https://unsplash.com" width="100" height="100" style="border-radius:50%;" /> | **RODRÍGUEZ SOLANO, MILAGROS MARIAJOSÉ**<br>✉️ ` milagros.rodriguez.s@upch.pe`<br>*Rol: Desarrollador ETL* |
-| <img src="https://unsplash.com" width="100" height="100" style="border-radius:50%;" /> | **OLIVA GONZALES, HUDSON HUMBERTO**<br>✉️ `hudson.oliva.g@upch.pe`<br>*Rol: Analista de Datos* |
+| Foto Grupal |
+| :---: |
+| <img src="https://unsplash.com" width="500" height="300" style="border-radius:12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" /><br>**Integrantes del Proyecto** |
+
+<br>
+
+| Integrante | Datos de Contacto y Rol |
+| :--- | :--- |
+| **HERRERA LEZCANO, NICOLAS VLADIMIR** | ✉️ `nicolas.herrera@upch.pe`<br>🛠️ *Rol: Diseñador de BD / Líder* |
+| **CATACORA CARRILLO, MARÍA ALEJANDRA** | ✉️ `maria.catacora.c@upch.pe`<br>🛠️ *Rol: Desarrollador ETL* |
+| **FERNANDEZ BERNAOLA, DAVIDT BRAYAMN** | ✉️ `davidt.fernandez@upch.pe`<br>🛠️ *Rol: Analista de Datos* |
+| **RODRÍGUEZ SOLANO, MILAGROS MARIAJOSÉ** | ✉️ `milagros.rodriguez.s@upch.pe`<br>🛠️ *Rol: Desarrollador ETL* |
+| **OLIVA GONZALES, HUDSON HUMBERTO** | ✉️ `hudson.oliva.g@upch.pe`<br>🛠️ *Rol: Analista de Datos* |
 
 ---
 
