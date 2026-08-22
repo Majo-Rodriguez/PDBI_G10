@@ -7,7 +7,7 @@
 
 | Foto Grupal |
 | :---: |
-| <img src="./foto_grupo.jpeg" width="500" height="300" style="border-radius:12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" /><br>**Integrantes del Proyecto** |
+| <img src="./foto_grupo.jpeg" width="500" height="400" style="border-radius:12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" /><br>**Integrantes del Proyecto** |
 
 <br>
 
