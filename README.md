@@ -13,11 +13,11 @@
 
 | Integrante | Datos de Contacto y Rol |
 | :--- | :--- |
-| **HERRERA LEZCANO, NICOLAS VLADIMIR** | ✉️ `nicolas.herrera@upch.pe`<br>🛠️ *Rol: Diseñador de BD / Líder* |
-| **CATACORA CARRILLO, MARÍA ALEJANDRA** | ✉️ `maria.catacora.c@upch.pe`<br>🛠️ *Rol: Desarrollador ETL* |
-| **FERNANDEZ BERNAOLA, DAVIDT BRAYAMN** | ✉️ `davidt.fernandez@upch.pe`<br>🛠️ *Rol: Analista de Datos* |
-| **RODRÍGUEZ SOLANO, MILAGROS MARIAJOSÉ** | ✉️ `milagros.rodriguez.s@upch.pe`<br>🛠️ *Rol: Desarrollador ETL* |
-| **OLIVA GONZALES, HUDSON HUMBERTO** | ✉️ `hudson.oliva.g@upch.pe`<br>🛠️ *Rol: Analista de Datos* |
+| **HERRERA LEZCANO, NICOLAS VLADIMIR** | ✉️ `nicolas.herrera@upch.pe`<br>🛠️ *Rol: Diseñador de Modelo ML / Líder* |
+| **CATACORA CARRILLO, MARÍA ALEJANDRA** | ✉️ `maria.catacora.c@upch.pe`<br>🛠️ *Rol: Desarrolladora de Programación* |
+| **FERNANDEZ BERNAOLA, DAVIDT BRAYAMN** | ✉️ `davidt.fernandez@upch.pe`<br>🛠️ *Rol: Desarrollador electrónico* |
+| **RODRÍGUEZ SOLANO, MILAGROS MARIAJOSÉ** | ✉️ `milagros.rodriguez.s@upch.pe`<br>🛠️ *Rol: Desarrolladora de Modelado 3D* |
+| **OLIVA GONZALES, HUDSON HUMBERTO** | ✉️ `hudson.oliva.g@upch.pe`<br>🛠️ *Rol: Desarrollador de Modelo ML* |
 
 ---
 
