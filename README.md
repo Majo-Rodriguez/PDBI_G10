@@ -13,9 +13,9 @@
 
 | Integrante | Datos de Contacto y Rol |
 | :--- | :--- |
-| **HERRERA LEZCANO, NICOLAS VLADIMIR** | ✉️ `nicolas.herrera@upch.pe`<br>🛠️ *Rol: Diseñador de Modelo ML / Líder* |
+| **HERRERA LEZCANO, NICOLAS VLADIMIR** | ✉️ `nicolas.herrera@upch.pe`<br>🛠️ *Rol: Diseñador de Modelo ML * |
 | **CATACORA CARRILLO, MARÍA ALEJANDRA** | ✉️ `maria.catacora.c@upch.pe`<br>🛠️ *Rol: Desarrolladora de Programación* |
-| **FERNANDEZ BERNAOLA, DAVIDT BRAYAMN** | ✉️ `davidt.fernandez@upch.pe`<br>🛠️ *Rol: Desarrollador electrónico* |
+| **FERNANDEZ BERNAOLA, DAVIDT BRAYAMN** | ✉️ `davidt.fernandez@upch.pe`<br>🛠️ *Rol: Desarrollador electrónico/ Líder* |
 | **RODRÍGUEZ SOLANO, MILAGROS MARIAJOSÉ** | ✉️ `milagros.rodriguez.s@upch.pe`<br>🛠️ *Rol: Desarrolladora de Modelado 3D* |
 | **OLIVA GONZALES, HUDSON HUMBERTO** | ✉️ `hudson.oliva.g@upch.pe`<br>🛠️ *Rol: Desarrollador de Modelo ML* |
 
