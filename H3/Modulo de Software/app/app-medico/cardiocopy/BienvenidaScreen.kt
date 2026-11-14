@@ -30,10 +30,10 @@ fun BienvenidaScreen(
     onVincular: () -> Unit = {},
     onContinuar: () -> Unit
 ) {
-    // SIMULACIÓN: más adelante este estado vendrá del Bluetooth (BLE) real.
+    
     var estado by remember { mutableStateOf(EstadoConexion.DESCONECTADO) }
 
-    // Simula el tiempo de búsqueda
+    
     LaunchedEffect(estado) {
         if (estado == EstadoConexion.BUSCANDO) {
             delay(2000)
@@ -56,7 +56,7 @@ fun BienvenidaScreen(
 
         Spacer(Modifier.height(16.dp))
 
-        // Placeholder del logo
+        
         Icon(
             Icons.Default.Hearing,
             contentDescription = null,
