@@ -25,4 +25,10 @@
 Carencia de dispositivos de tamizaje que muestren y señalen alteraciones en sonidos cardiopulmonares, lo que genera retardos y posibles errores en el diagnóstico de patologías
 
 ## Descripción del Proyecto
-Estetoscopio electrónico portátil orientado a contextos rurales, capaz de realizar localmente la adquisición, preprocesamiento y clasificación TinyML de sonidos cardiopulmonares, proporcionando retroalimentación visual y auditiva, sin requerir conectividad externa.
+Estetoscopio electrónico portátil orientado a contextos rurales, capaz de realizar localmente la adquisición, preprocesamiento y clasificación TinyML de sonidos cardiacos, proporcionando retroalimentación visual, sin requerir conectividad externa.
+
+## Variables fisiológicas seleccionadas
+Frecuencia y vibración mecánica del corazón: Espectro de vibraciones generadas por la actividad cardíaca, abarcando específicamente bandas de baja frecuencia y rangos infrasónicos imperceptibles para el oído humano.
+## Señal biomédica identificada
+Señal Fonocardiográfica (PCG): Ondas sonoras y vibraciones mecánicas capturadas directamente desde la superficie torácica mediante un micrófono MEMS, las cuales contienen los ruidos cardíacos fundamentales y los soplos.
+
