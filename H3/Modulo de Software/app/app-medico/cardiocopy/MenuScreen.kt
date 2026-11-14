@@ -35,7 +35,7 @@ fun MenuScreen(
 
         Spacer(Modifier.height(16.dp))
 
-        // Logo (res/drawable/logo.jpg)
+       
         Image(
             painter = painterResource(R.drawable.logo),
             contentDescription = "Logo Cardiocori",
