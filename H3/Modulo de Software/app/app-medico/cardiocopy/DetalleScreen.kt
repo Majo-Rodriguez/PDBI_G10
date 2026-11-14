@@ -19,7 +19,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-// Un hallazgo por foco. Si "soplo" es null, ese foco salió normal.
+
 data class HallazgoFoco(
     val numero: Int,
     val nombreFoco: String,
@@ -27,8 +27,7 @@ data class HallazgoFoco(
     val soplo: String?
 )
 
-// Datos de ejemplo por registro (luego vendrán de la base de datos).
-// Deben coincidir con los soplos que dice el Historial.
+
 fun hallazgosDeEjemplo(numero: Int): List<HallazgoFoco> {
     val soplos: Map<Int, String> = when (numero) {
         3 -> mapOf(
@@ -101,7 +100,7 @@ fun DetalleScreen(
 
         Spacer(Modifier.height(16.dp))
 
-        // Resumen de los 5 focos
+        
         Card(
             modifier = Modifier.fillMaxWidth(),
             shape = RoundedCornerShape(12.dp),
