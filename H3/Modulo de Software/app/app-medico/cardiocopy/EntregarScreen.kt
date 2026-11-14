@@ -21,7 +21,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.delay
 
-// Duración del código de entrega, en segundos (5 minutos)
+
 private const val DURACION_CODIGO = 300
 
 @Composable
@@ -31,7 +31,7 @@ fun EntregarScreen(
     onTerminar: () -> Unit,
     onEntregado: () -> Unit = {}
 ) {
-    // SIMULACIÓN: más adelante el código se generará y validará por Bluetooth.
+    
     var intento by remember { mutableIntStateOf(0) }
     val codigo = remember(intento) { (0..999999).random().toString().padStart(6, '0') }
     var restante by remember { mutableIntStateOf(DURACION_CODIGO) }
@@ -148,7 +148,7 @@ fun EntregarScreen(
                     Text("GENERAR NUEVO CÓDIGO", fontWeight = FontWeight.Medium)
                 }
             } else {
-                // Solo para pruebas: reemplaza la validación real del paciente.
+                
                 OutlinedButton(
                     onClick = {
                         entregado = true
