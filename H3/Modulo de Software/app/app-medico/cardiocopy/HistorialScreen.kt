@@ -26,10 +26,10 @@ enum class EstadoEntrega(val texto: String, val color: Color) {
     ENTREGADO("Entregado", Color(0xFF5E9E7A))
 }
 
-// Resumen de un registro para la lista. No contiene datos personales.
+
 data class RegistroResumen(
     val numero: Int,
-    val fecha: String,          // formato "dd/MM/yyyy · HH:mm"
+    val fecha: String,          
     val soplos: Int,
     val estado: EstadoEntrega = EstadoEntrega.PENDIENTE
 ) {
@@ -37,7 +37,7 @@ data class RegistroResumen(
     val dia: String get() = fecha.substringBefore("·").trim()
 }
 
-// Datos de ejemplo (luego vendrán de la base de datos)
+
 val registrosEjemplo = listOf(
     RegistroResumen(3, "09/11/2026 · 15:30", 2, EstadoEntrega.PENDIENTE),
     RegistroResumen(2, "02/11/2026 · 10:15", 0, EstadoEntrega.ENTREGADO),
