@@ -45,7 +45,7 @@ class MainActivity : ComponentActivity() {
 fun AppNav() {
     val navController = rememberNavController()
 
-    // Base de datos local (Room) y un "lanzador" para las operaciones de guardado
+    
     val context = LocalContext.current
     val dao = remember { AppDatabase.obtener(context).registroDao() }
     val scope = rememberCoroutineScope()
@@ -75,7 +75,7 @@ fun AppNav() {
             NuevoRegistroScreen(
                 onBack = { navController.popBackStack() },
                 onTerminar = {
-                    // Guarda el registro en la base de datos y abre su detalle
+                    
                     scope.launch {
                         val id = dao.insertar(registroSimulado()).toInt()
                         navController.navigate(Routes.detalle(id)) {
@@ -89,7 +89,7 @@ fun AppNav() {
             GuiaScreen(onBack = { navController.popBackStack() })
         }
         composable(Routes.HISTORIAL) {
-            // Lee todos los registros guardados; la lista se actualiza sola
+            
             val registros by remember { dao.todos() }.collectAsState(initial = emptyList())
             HistorialScreen(
                 registros = registros.map { it.aResumen() },
@@ -110,7 +110,7 @@ fun AppNav() {
                     fecha = formatearFecha(r.fechaMillis),
                     hallazgos = r.hallazgos(),
                     onBack = { navController.popBackStack() },
-                    // El botón de entregar solo aparece si el registro sigue pendiente
+                    
                     onEntregar = if (r.estado == EstadoEntrega.PENDIENTE.name) {
                         { navController.navigate(Routes.entregar(r.id)) }
                     } else null
@@ -126,7 +126,7 @@ fun AppNav() {
                 numeroRegistro = numero,
                 onBack = { navController.popBackStack() },
                 onEntregado = {
-                    // Marca el registro como entregado en la base de datos
+                    
                     scope.launch { dao.cambiarEstado(numero, EstadoEntrega.ENTREGADO.name) }
                 },
                 onTerminar = { navController.popBackStack(Routes.MENU, inclusive = false) }
