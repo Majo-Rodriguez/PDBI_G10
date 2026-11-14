@@ -6,11 +6,11 @@ import java.util.Date
 import java.util.Locale
 import kotlin.random.Random
 
-// Convierte los milisegundos guardados en la base de datos a texto legible.
+
 fun formatearFecha(millis: Long): String =
     SimpleDateFormat("dd/MM/yyyy · HH:mm", Locale.forLanguageTag("es-PE")).format(Date(millis))
 
-// Convierte un registro de la base de datos al resumen que muestra el Historial.
+
 fun RegistroEntity.aResumen(): RegistroResumen = RegistroResumen(
     numero = id,
     fecha = formatearFecha(fechaMillis),
@@ -18,7 +18,7 @@ fun RegistroEntity.aResumen(): RegistroResumen = RegistroResumen(
     estado = runCatching { EstadoEntrega.valueOf(estado) }.getOrDefault(EstadoEntrega.PENDIENTE)
 )
 
-// Convierte un registro de la base de datos a la lista de focos que muestra el Detalle.
+
 fun RegistroEntity.hallazgos(): List<HallazgoFoco> = listOf(
     HallazgoFoco(1, "Foco Aórtico", Color(0xFFF9C6D3), soplo1),
     HallazgoFoco(2, "Foco Pulmonar", Color(0xFFD5F0A8), soplo2),
@@ -26,12 +26,11 @@ fun RegistroEntity.hallazgos(): List<HallazgoFoco> = listOf(
     HallazgoFoco(4, "Foco Mitral / Apexiano", Color(0xFFF9B97C), soplo4)
 )
 
-// SIMULACIÓN: como todavía no hay análisis real de las señales, el resultado
-// se elige al azar. Más adelante aquí irá el resultado del análisis verdadero.
+
 fun registroSimulado(): RegistroEntity {
     val ahora = System.currentTimeMillis()
     return when (Random.nextInt(3)) {
-        0 -> RegistroEntity(fechaMillis = ahora) // normal
+        0 -> RegistroEntity(fechaMillis = ahora) 
         1 -> RegistroEntity(
             fechaMillis = ahora,
             soplo3 = "Soplo sistólico en la válvula tricúspide"
